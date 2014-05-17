@@ -5,7 +5,7 @@ var NodeWiki = require('../nodewiki');
 
 var wiki = new NodeWiki();
 
-wiki.app.set('port', process.argv[2] || process.env.PORT || 3000);
+wiki.app.set('port', process.argv[2] || 3000);
 
 var server = http.createServer(wiki.app);
 
