@@ -2,10 +2,17 @@
   "name": "nodewiki",
   "version": "0.1.2",
   "author": "Nafis Hossain <nhoss2@gmail.com>",
+  "contributors": [
+    {   "name" : "Matthew Kastor"
+        , "email" : "matthewkastor@gmail.com"
+        , "url" : "https://github.com/matthewkastor"
+    }
+  ],
   "description": "A simple wiki that uses markdown files",
   "license": "MIT",
   "scripts": {
-    "start": "bin/cli.js"
+    "start": "bin/cli.js",
+    "test" : "mocha"
   },
   "main": "nodewiki.js",
   "bin": "bin/cli.js",
