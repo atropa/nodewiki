@@ -28,7 +28,7 @@ npm install -g
 
 Node Wiki can be started on any directory. To start it, simply type
 `nodewiki` in the directory that you want to start it in. Without any
-options, the URL for node wiki would be: http://<Hostname_or_IP>:3000/
+options, the URL for node wiki would be: http://localhost:3000/
 and any other computer on the network can access the wiki (subject to
 firewall settings). To specify the port either give it as the first 
 argument on the command line or, set the environment varialbe `PORT`.
