@@ -35,7 +35,9 @@ Starts node wiki on port 7777
 
 ##Tests
 
-From the root of the installation run:
+
+From the root of the installation run `npm install` to get the dev dependencies
+ then you can run tests with:
 
 ```
 npm test
