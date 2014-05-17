@@ -1,6 +1,8 @@
 TODO
 ----
 
+  - Write tests in Jasmine, because it's that awesome
+
   - Reimplement any cool command line features from `old.js` into `bin/cli.js`
 
   - Get custom scrollbar for sidebar that doesn't use jquery.
