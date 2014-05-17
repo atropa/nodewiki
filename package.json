@@ -15,7 +15,7 @@
   "license": "MIT",
   "scripts": {
     "start": "bin/cli.js",
-    "test" : "mocha"
+    "test": "jasmine-node --test-dir test --matchall"
   },
   "main": "nodewiki.js",
   "bin": "bin/cli.js",
