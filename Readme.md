@@ -32,3 +32,18 @@ Starts node wiki
 nodewiki 7777
 ```
 Starts node wiki on port 7777
+
+##Tests
+
+From the root of the installation run:
+
+```
+npm test
+```
+
+on windows the root of the global installation is at
+
+`"%appdata%\npm\nodewiki"`
+
+If you want to add tests, they're in the file `test\test.js` and are written
+ using Jasmine [http://jasmine.github.io/edge/introduction.html](http://jasmine.github.io/edge/introduction.html)
