@@ -13,7 +13,11 @@ automatically does a git commit on each file save.
 
 ## Install
 
-    npm install nodewiki -g
+Clone this repo, navigate to it on the command line, then run:
+
+```
+npm install -g
+```
 
 *note: you may need sudo*
 
