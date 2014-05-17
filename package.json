@@ -1,7 +1,10 @@
 {
   "name": "nodewiki",
   "version": "0.1.2",
-  "author": "Nafis Hossain <nhoss2@gmail.com>",
+  "author": {
+    "name": "Nafis Hossain",
+    "email": "nhoss2@gmail.com"
+  },
   "contributors": [
     {   "name" : "Matthew Kastor"
         , "email" : "matthewkastor@gmail.com"
@@ -32,6 +35,6 @@
     "url": "git://github.com/nhoss2/nodewiki.git"
   },
   "devDependencies": {
-    "mocha": "^1.18.2"
+    "jasmine-node" : ">=1.14.3"
   }
 }
